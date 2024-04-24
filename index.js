@@ -2,6 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const colors = require('colors');
+// This calls the generateMarkdown file so we can use it this file.
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -65,6 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(data => {
+        // This is calling on a function from another file to help make the README.
         const readme = generateMarkdown(data);
         writeToFile('README.md', readme)
     })
