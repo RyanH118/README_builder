@@ -14,7 +14,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'What is your description?'.rainbow
     },
     {
@@ -31,7 +31,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project:',
-        choices: ['MIT'.cyan, 'Apache-2.0'.magenta, 'GPL-3.0'.yellow, 'Unlicense'.red]
+        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'Unlicense']
     },
     {
         type: 'input',
