@@ -3,10 +3,6 @@
         
 ## Description
 A README Builder that asks questions and takes user input.
-
-## Website Link
-
-https://watch.screencastify.com/v/MjlGxSQZccbuF7de7fyL
           
 ## Table of Contents
 * [Description](#description)
@@ -23,12 +19,6 @@ npm install
 ## Usage
 Answer the questions and watch a file be created.
   
-![alt text](./images/Terminal.png)
-
-![alt text](./images/README_Preview.png)
-
-![alt text](./images/READEME_code.png)
-
 
 ## License
 This project is licensed with [MIT](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
