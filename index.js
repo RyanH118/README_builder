@@ -10,55 +10,55 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What will you name the README?'
+        message: 'What will you name the README?'.blue
     },
     {
         type: 'input',
         name: 'Description',
-        message: 'What is your description?'
+        message: 'What is your description?'.rainbow
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What is the installation process?'
+        message: 'What is the installation process?'.yellow
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use the project?'
+        message: 'How do you use the project?'.cyan
     },
     {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project:',
-        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'Unlicense']
+        choices: ['MIT'.cyan, 'Apache-2.0'.magenta, 'GPL-3.0'.yellow, 'Unlicense'.red]
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'How can you contribute?'
+        message: 'How can you contribute?'.red
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'What tests can you run?'
+        message: 'What tests can you run?'.black
     },
     {
         type: 'input',
         name: 'githubUsername',
-        message: 'What is your github username?'
+        message: 'What is your github username?'.magenta
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email?'
+        message: 'What is your email?'.america
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        err ? console.log(err) : console.log('success!');
+        err ? console.log(err) : console.log('success!'.green);
     })
 }
 
